@@ -37,14 +37,14 @@ fun main() {
     }
 }
 
-class CalculatesWallArea() {
+class CalculatesWallArea {
     fun calculatesWallArea(width: Double, height: Double): Double{
         val area = width * height
         return area
     }
 }
 
-class CalculateQuantityOfPaint() {
+class CalculateQuantityOfPaint {
     fun calculateQuantityOfPaint(area: Double): Double{
         val quantityOfPaint = area / 2
         return quantityOfPaint
@@ -52,13 +52,13 @@ class CalculateQuantityOfPaint() {
 
 }
 
-class ShowAreaMessage() {
+class ShowAreaMessage {
     fun showAreaMessage(area: Double) {
         println("The wall area is ${area} square meters.")
     }
 }
 
-class ShowQuantityOfPaintMessage() {
+class ShowQuantityOfPaintMessage {
     fun showQuantityOfPaintMessage(quantityOfPaint: Double) {
         println("The amount of paint necessary to paint is ${quantityOfPaint} liters.")
     }

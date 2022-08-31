@@ -42,37 +42,37 @@ interface Converter {
     fun convert(distanceInMeters: Double): String
 }
 
-class MetersToKilometers() : Converter {
+class MetersToKilometers : Converter {
     override fun convert(distanceInMeters: Double): String {
         return "${distanceInMeters / 1000}km"
     }
 }
 
-class MetersToHectometers() : Converter {
+class MetersToHectometers : Converter {
     override fun convert(distanceInMeters: Double): String {
         return "${distanceInMeters / 100}hm"
     }
 }
 
-class MetersToDecameters() : Converter {
+class MetersToDecameters : Converter {
     override fun convert(distanceInMeters: Double): String {
         return "${distanceInMeters / 10}dm"
     }
 }
 
-class MetersToDecimeters() : Converter {
+class MetersToDecimeters : Converter {
     override fun convert(distanceInMeters: Double): String {
         return "${distanceInMeters * 10}dm"
     }
 }
 
-class MetersToCentimeters() : Converter {
+class MetersToCentimeters : Converter {
     override fun convert(distanceInMeters: Double): String {
         return "${distanceInMeters * 100}cm"
     }
 }
 
-class MetersToMilimeters() : Converter {
+class MetersToMilimeters : Converter {
     override fun convert(distanceInMeters: Double): String {
         return "${distanceInMeters * 1000}mm"
     }
