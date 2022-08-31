@@ -1,4 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio15
+package com.mrsv.exerciciosalogoritmos.exercise15
 
 /**
  *  15) Crie um programa que leia o número de dias trabalhados em um mês e mostre o

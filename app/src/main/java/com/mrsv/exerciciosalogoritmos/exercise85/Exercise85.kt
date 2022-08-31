@@ -1,4 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio85
+package com.mrsv.exerciciosalogoritmos.exercise85
 
 /**
  * 85) Faça um algoritmo que leia o nome, o sexo e o salário de 5 funcionários e

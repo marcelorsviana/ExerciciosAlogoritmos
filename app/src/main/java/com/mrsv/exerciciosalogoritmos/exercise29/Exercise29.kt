@@ -1,4 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio29
+package com.mrsv.exerciciosalogoritmos.exercise29
 
 /**
  * 29) Desenvolva um programa que leia o nome de um funcionário, seu salário,

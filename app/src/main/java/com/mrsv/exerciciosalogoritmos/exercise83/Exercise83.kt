@@ -1,4 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio83
+package com.mrsv.exerciciosalogoritmos.exercise83
 
 import kotlin.random.Random
 

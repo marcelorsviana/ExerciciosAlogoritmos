@@ -1,4 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio19
+package com.mrsv.exerciciosalogoritmos.exercise19
 
 /**
  *  19) Crie um algoritmo que leia o nome e as duas notas de um aluno, calcule a sua

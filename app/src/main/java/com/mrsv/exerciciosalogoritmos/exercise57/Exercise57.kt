@@ -1,6 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio57
-
-import android.os.Build.VERSION_CODES.S
+package com.mrsv.exerciciosalogoritmos.exercise57
 
 /**
  * 57) Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários.

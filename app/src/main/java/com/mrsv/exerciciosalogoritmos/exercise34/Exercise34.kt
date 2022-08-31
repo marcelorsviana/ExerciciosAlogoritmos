@@ -1,4 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio34
+package com.mrsv.exerciciosalogoritmos.exercise34
 
 /**
  *  34) O Índice de Massa Corpórea (IMC) é um valor calculado baseado na altura e no

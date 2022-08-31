@@ -1,4 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio68
+package com.mrsv.exerciciosalogoritmos.exercise68
 
 /**
  * 82) Faça um algoritmo que leia a nota de 10 alunos de uma turma e guarde-as em

@@ -1,4 +1,4 @@
-package com.mrsv.exerciciosalogoritmos.exercicio33
+package com.mrsv.exerciciosalogoritmos.exercise33
 
 /**
  *  33) Escreva um programa para aprovar ou não o empréstimo bancário para a compra
