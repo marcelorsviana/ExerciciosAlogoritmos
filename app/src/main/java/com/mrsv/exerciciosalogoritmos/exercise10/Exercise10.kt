@@ -10,9 +10,7 @@ import com.mrsv.exerciciosalogoritmos.exercise10.Program.Companion.key
  * It is known that each liter of paint corresponds to 2 m².
  */
 
-
 fun main() {
-
     var wallWidth: Double
     var wallHeight: Double
     val showMessages = PrintMessages()
@@ -26,6 +24,8 @@ fun main() {
             println("What is the height of the wall?")
             wallHeight = readln().toDouble()
             if (wallHeight > 0) {
+
+                // DÚVIDA: Como fazer os cálculos??????????????????????????
                 val calculate = MakeCalculations(wallWidth, wallHeight)
                 calculate.calculateQuantityOfPaint()
 
@@ -42,7 +42,6 @@ fun main() {
     }
 }
 
-
 class MakeCalculations(val width: Double, val height: Double) {
 
     fun calculatesWallArea(width: Double, height: Double): Double {
@@ -56,7 +55,6 @@ class MakeCalculations(val width: Double, val height: Double) {
     }
 }
 
-
 class PrintMessages {
 
     companion object {
@@ -65,11 +63,11 @@ class PrintMessages {
     }
 
     fun showAreaMessage() {
-        println("The wall area is ${area} square meters.")
+        println("The wall area is $area square meters.")
     }
 
     fun showQuantityOfPaintMessage() {
-        println("The amount of paint necessary to paint the wall is ${quantityOfPaint} liters.")
+        println("The amount of paint necessary to paint the wall is $quantityOfPaint liters.")
     }
 
     fun showNotValidWidthMessage() {

@@ -1,13 +1,12 @@
 package com.mrsv.exerciciosalogoritmos.exercise15
 
 /**
- *  15) Crie um programa que leia o número de dias trabalhados em um mês e mostre o
- *  salário de um funcionário, sabendo que ele trabalha 8 horas por dia e ganha R$25
- *  por hora trabalhada.
+ *  15) Create a program that reads the number os worked days in a months and that shows the
+ *  employee's salary. It is known that the employee works 8 hours a day and earns US$ 25
+ *  per worked hour.
  */
 
-fun main(){
-
+fun main() {
     val diasTrabalhados: Int
     val salario: Double
     val umDiaTrabalhado = 8 * 25
@@ -17,7 +16,5 @@ fun main(){
 
     salario = diasTrabalhados * umDiaTrabalhado.toDouble()
 
-    println("O salário do funcionário é de R$${salario}")
-
-
+    println("O salário do funcionário é de R$$salario")
 }
