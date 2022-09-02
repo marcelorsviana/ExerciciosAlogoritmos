@@ -1,15 +1,14 @@
 package com.mrsv.exerciciosalogoritmos.exercise19
 
 /**
- *  19) Crie um algoritmo que leia o nome e as duas notas de um aluno, calcule a sua
- *  média e mostre na tela. No final, analise a média e mostre se o aluno teve ou
- *  não um bom aproveitamento (se ficou acima da média 7.0)
+ *  19) Create an algorithm that reads the name and two grades of a student, calculates his/her
+ *  average and shows it on the screen. In the end, analise the average and say if the student
+ *  succeeded or not. (The student will succeed if his/her average is at least 7.0)
  */
 
-// e se forem n notas?
+// TODO:   e se forem n notas?
 
 fun main() {
-
     val nota1: Double
     val nota2: Double
     val media: Double
@@ -21,11 +20,9 @@ fun main() {
 
     media = (nota1 + nota2) / 2
 
-    if (media >= 7.0){
+    if (media >= 7.0) {
         println("A média é de $media -> APROVADO(A)")
     } else {
         println("A média é de $media -> REPROVADO(A)")
     }
-
-
 }
