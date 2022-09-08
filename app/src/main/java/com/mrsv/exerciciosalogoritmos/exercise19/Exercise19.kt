@@ -6,7 +6,7 @@ package com.mrsv.exerciciosalogoritmos.exercise19
  *  succeeded or not. (The student will succeed if his/her average is at least 7.0)
  */
 
-// TODO:   e se forem n notas?
+// TODO: E se forem n notas?
 
 fun main() {
     val nota1: Double
